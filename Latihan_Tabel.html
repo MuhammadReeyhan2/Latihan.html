@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="namafile.css">
+  <title>Membuat tabel pertama</title>
+</head>
+<body>
+  <table style="width: 100%;">
+    <caption>Latihan Tabel</caption>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+      <th>Header 4</th>
+    </tr>
+    <tr>
+      <td rowspan="2" style="background-color : rgb(169, 203, 215);">cell 1</td>
+      <td>cell 2</td>
+      <td>cell 3</td>
+      <td>cell 4</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="background-color : rgb(112, 128, 144);">cell 2 & 3</td>
+      <td>cell 4</td>
+    </tr>
+    <tr>
+      <td>cell 1</td>
+      <td rowspan="2"colspan="2" style="background-color : rgb(208, 217, 179);">cell 1,2 & 3</td>
+      <td>cell 4</td>
+    </tr>
+    <tr>
+      <td>cell 1</td>
+      <td>cell 4</td>
+        </table>
+      <style>
+      {
+        font-family: Helvetica , Arial, sans-serif;
+}
+table, td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 50px ;
+}
+th{
+  text-align: center;
+}
+th, td {
+            padding: 10px;
+        }
+th{
+    background-color: rgb(169, 169, 169);
+}
+</style>
+</body>
+</html>
