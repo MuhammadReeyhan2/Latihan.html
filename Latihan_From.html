@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Latihan from</title>
+</head>
+<body>
+ <style type="text/css">
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+   }
+
+ * {
+
+  box-sizing: border-box;
+
+}
+
+form {
+
+  padding: 0em;
+
+  background: #f9f9f9;
+
+  border: 0px solid #c1c1c1;
+
+  margin-top: 2rem;
+
+  max-width: 600px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  padding: 1em;
+
+}
+
+form input {
+
+  margin-bottom: 1rem;
+
+  background: #fff;
+
+  border: 4px solid #9c9c9c;
+
+}
+
+form button {
+
+  background: lightgrey;
+
+  padding: 10px;
+
+  border: 0;
+
+}
+
+form span a{
+
+  padding: 0.7em;
+
+  border: 0;
+
+  text-decoration: none;
+
+  text-align: center;
+
+}
+label {
+
+  text-align: right;
+
+  display: block;
+
+  padding: 0.5em 1.5em 0.5em 0;
+
+}
+
+input {
+
+  width: 100%;
+
+  padding: 0.7em;
+
+  margin-bottom: 0.5rem;
+
+}
+
+input:focus {
+
+  outline: 3px solid;
+
+}
+
+select {
+
+  width: 100%;
+
+  padding: 0.7em;
+
+  margin-bottom: 0.5rem;
+
+}
+
+select:focus {
+
+  outline: 3px solid ;
+
+}
+
+ </style>
+
+</head>
+<body>
+      <div class="container">
+        <form>
+          <h1>Formulir pendataan siswa</h1>
+        <label for="nama">Nama :</label><br>
+        <input type="text" id="nama"><br>
+        
+        <label for="email">Email :</label><br>
+        <input type="email" id="email"><br>
+
+        <label for="password">Password :</label><br>
+        <input type="password" id="password"><br>
+
+        <label for="usia">Usia :</label><br>
+        <input type="number" name="umur" id="umur" min="18" max="100"><br>
+        
+        <label for="tl">Tanggal Lahir :</label><br>
+        <input type="date" name="tanggal" id="tanggal"><br>
+
+        <label for="hobi">Hobi :</label><br>
+        <input type="radio">Desain
+        <input type="radio">ngoding
+        <input type="radio">main game 
+        <input type="radio">Fotografi
+        <input type="radio">Olah Raga</label><br>
+        
+        <label for="sodara">Sodara Kandung :</label><br>
+        <input type="radio">1
+        <input type="radio">2
+        <input type="radio">3
+        <input type="radio">4
+        <input type="radio">5<br>
+        <label for="kelas">Kelas</label><br>
+        <select class="jurusan" name="jurusan" id="jurusan">
+            <option value="pilih_kelas">~~~pilih_kelas~~~</option>
+            <option value="x-dpib-1">X-DPIB 1</option>
+            <option value="x-dpib-2">X-DPIB 2</option>
+            <option value="x-rpl-1">X-RPL 1</option>
+            <option value="x-rpl-2">X-RPL 2</option>
+            <option value="x-rpl-3">X-RPL 3</option>
+            <option value="x-tav-1">X-TAV 1</option>
+            <option value="x-tav-2">X-TAV 2</option>
+            <option value="x-tav-3">X-TAV 3</option>
+            <option value="x-tbsm-1">X-TBSM 1</option>
+            <option value="x-tbsm-2">X-TBSM 2</option>
+            <option value="x-tbsm-3">X-TBSM 3</option>
+              <option value="x-tkr-1">X-TKR 1</option>
+            <option value="x-tkr-2">X-TKR 2</option>
+            <option value="x-tkr-3">X-TKR 3</option>
+        </select><br>
+        <label for="pesan">Kesan dan Pesan :</label><br>
+        <textarea name="pesan" id="pesan" cols="30" rows="10"></textarea>
+        <button class="button">submite</button>
+    </form>
+    </div>
+</body>
+</html>
+  
